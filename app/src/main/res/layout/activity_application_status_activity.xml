@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:background="@color/Background"
+    android:orientation="vertical"
+    tools:context="com.example.superuser.universityhousingreal.application_status_activity">
+
+    <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="top"
+        android:background="@drawable/universityicon"
+        android:theme="@android:style/Theme.Holo.NoActionBar" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view"
+        android:background="@color/Orange"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+    <EditText
+        android:id="@+id/edtTxtAppID"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+        android:background="@color/White"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:labelFor="@+id/edtTxtStdID"
+        android:text="@string/Application_ID"
+        android:textColor="@color/Black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_get_app_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="ApplicationStatusBtnClick"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout1"
+        android:gravity="center"
+
+        android:text="@string/show_details_housing"
+        android:textColor="@color/Black" />
+
+    <TextView
+        android:id="@+id/txt_view_Status_info"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+</LinearLayout>

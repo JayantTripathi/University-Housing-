@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="Orange">#DC5D26</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Background">#F1EACD</color>
+    <color name="Black">#4C4C4C</color>
+    <color name="Red">#ff0000</color>
+    <color name="Blue">#D1DDE9</color>
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+    </style>
+
+
+
+
+
+
+    <style name="spinner_style" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:spinnerStyle">@style/spinnerStyle</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item> -->
+    </style>
+    <style name="SpinnerItem">
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:background">@color/Background</item>
+    </style>
+    <style name="spinnerStyle">
+
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:background">@color/Red</item>
+    </style>
+
+    <style name="SpinnerDropDownItem">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:background">@color/Orange</item>
+    </style>
+</resources>

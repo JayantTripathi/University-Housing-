@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:orientation="vertical"
+    tools:context="com.example.superuser.universityhousingreal.Submit_Application_housing">
+
+    <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="top"
+        android:background="@drawable/universityicon"
+        android:theme="@android:style/Theme.Holo.NoActionBar" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view"
+        android:background="@color/Orange"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="@string/Enter_student_ID"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+           />
+
+        <EditText
+            android:id="@+id/edtTxt_student_ID"
+            android:inputType="number"
+            android:text="@string/Student_ID"
+            android:textColor="@color/White"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Type_Housing"
+            android:textColor="@color/Black"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/type_housing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/txt_view_Residence_halls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Type_Residence_Hall"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/type_residence_hall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/txt_view_Apartments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Type_Apartment"
+            android:textColor="@color/Black"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/type_Apartments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Contract_to_date"
+            android:textColor="@color/Black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/White"
+            android:inputType="date"
+            android:text="@string/Date_Format"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Contract_to_date"
+            android:textColor="@color/Black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/White"
+            android:layout_marginTop="10dp"
+            android:inputType="date"
+            android:text="@string/Date_Format"
+            />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/layout1"
+            android:text="@string/Submit_application_Details"
+            android:textColor="@color/Black"
+            android:onClick="Submit_Application_Btn"
+            />
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+</LinearLayout>

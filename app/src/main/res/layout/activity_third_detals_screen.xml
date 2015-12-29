@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:orientation="vertical"
+    tools:context="com.example.superuser.universityhousingreal.third_detals_screen">
+
+       <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="top"
+        android:background="@drawable/universityicon"
+        android:theme="@android:style/Theme.Holo.NoActionBar" />
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/view"
+        android:background="@color/Orange"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="@string/Type_Housing"
+    android:layout_marginTop="100dp"
+    android:textColor="@color/Black"
+    android:layout_gravity="center"
+    android:textStyle="bold"
+    />
+    <Spinner
+        android:id="@+id/type_housing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/txt_view_Residence_halls"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/Type_Residence_Hall"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        />
+    <Spinner
+        android:id="@+id/type_residence_hall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/txt_view_Apartments"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/Type_Apartment"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/Black"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        />
+    <Spinner
+        android:id="@+id/type_Apartments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        />
+    <Button
+        android:id="@+id/btn_load_housing_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/layout1"
+        android:gravity="center"
+        android:onClick="HousingInfoActivity"
+        android:text="@string/show_details_housing"
+        android:textColor="@color/Black"
+        android:visibility="gone"/>
+</LinearLayout>

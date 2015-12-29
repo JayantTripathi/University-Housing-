@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">University Housing</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="Submit_Application">Application Status</string>
+    <string name="Apply_Now">Apply Now</string>
+    <string name="logo">UniversityLogo</string>
+    <string name="Student_ID">Student ID</string>
+    <string name="Type_Housing"><u>Select Housing Type</u></string>
+    <string name="Type_Apartment"><u>Select Apartment</u></string>
+    <string name="Type_Residence_Hall"><u>Select Reidence Hall</u></string>
+    <string name="show_details_housing">Show Details</string>
+    <string name="Password">Password</string>
+    <string name="Application_ID">Application ID</string>
+    <string name="Sign_In">  Sign In</string>
+    <string name="Date_Format">Month/Day/Year</string>
+    <string name="Contract_to_date"><u>Contract Expiry Date</u></string>
+    <string name="Submit_application_Details">Submit Application</string>
+    <string name="Enter_student_ID"><u>Enter Student ID</u></string>
+    <string name="Floor_Plans">Floor Plans</string>
+    <string name="get_details"><u>Get the Details</u></string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third_detals_screen">third_detals_screen</string>
+
+    <string-array name="type_housing_options">
+        <item>Style of Housing</item>
+        <item>Residence Halls</item>
+        <item>Apartments</item>
+    </string-array>
+
+    <string-array name="type_residence_hall_options">
+        <item>Type of Residence Hall</item>
+        <item>Arlington Hall</item>
+        <item>KC Hall</item>
+    </string-array>
+
+    <string-array name="type_Apartments_options">
+        <item>Type of Apartments</item>
+        <item>Meadow Run</item>
+        <item>Timber Brook</item>
+    </string-array>
+        <string name="title_activity_application_status_activity">application_status_activity</string>
+        <string name="title_activity_submit__application_housing">Submit_Application_housing</string>
+        <string name="title_activity_last_information_housing">last_information_housing</string>
+
+</resources>

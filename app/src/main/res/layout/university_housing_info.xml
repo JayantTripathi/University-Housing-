@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background">
+
+<ImageView
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/housing_main_theme"
+    android:contentDescription="housing image"></ImageView>
+
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txt_housing_home"
+        android:textColor="@color/Black"
+        android:layout_marginLeft="5dp"
+    >
+    </TextView>
+    <TextView
+        android:id="@+id/details_click"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/get_details"
+        android:textColor="@color/Red"
+        android:layout_marginLeft="5dp"
+
+        />
+
+    <TableLayout
+        android:id="@+id/tbl_btn_inc"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:stretchColumns="1">
+        <TableRow
+            android:layout_marginBottom="5dp">
+        <Button
+            android:id="@+id/Btn_App_status"
+           android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/layout1"
+            android:gravity="start"
+            android:text="@string/Apply_Now"
+            android:textColor="@color/Black"
+
+            >
+        </Button>
+        <Button
+            android:id="@+id/Submit_Application"
+            android:layout_width="match_parent"
+           android:layout_marginLeft="20dp"
+            android:layout_height="30dp"
+            android:background="@drawable/layout1"
+            android:text="@string/Submit_Application"
+            android:textColor="@color/Black"
+
+            >
+        </Button>
+        </TableRow>
+        </TableLayout>
+
+
+</LinearLayout>
